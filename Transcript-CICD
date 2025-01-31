@@ -1,0 +1,157 @@
+
+Continuous Integration and Continuous Deployment CD are foundational practices in DevOps that automate
+
+and streamline the software development life cycle.
+
+So CI focuses on automating the process of integrating code changes into a shared repository.
+
+Whenever a developer pushes new code, CI systems automatically test and validate the changes to ensure
+
+they don't break existing functionality.
+
+This is done by running automated tests and builds, which catch bugs early and provide immediate feedback
+
+to the team.
+
+Imagine if a developer adds a new feature.
+
+The CI system tests whether it works and interacts correctly with existing code.
+
+If issues arise, they can be resolved quickly before they grow into larger problems.
+
+CD builds on CI by automating the process of deploying validated code to production environments.
+
+Once code changes pass all tests, they are automatically released to users.
+
+This reduces manual intervention and ensures that updates are delivered quickly and reliably.
+
+Continuous delivery.
+
+A related concept involves preparing code for deployment, but might still require manual approval for
+
+release.
+
+Whereas continuous deployment is fully automated, CI and CD reduce the time and effort needed to deploy
+
+code changes.
+
+It enables teams to release smaller, more manageable updates, frequently lowering the risk of errors.
+
+Developers can focus on building new features rather than worrying about integration and deployment
+
+issues.
+
+Several tools are available to implement CI CD pipelines.
+
+These tools help automate tasks like code building, testing, and deployment.
+
+Jenkins is one of the most widely used CI CD tools.
+
+It is an open source automation server that can integrate with virtually any development, testing,
+
+or deployment tool.
+
+Jenkins is highly flexible, allowing teams to create custom pipelines tailored to their needs.
+
+However, it requires manual setup and maintenance, which can be complex for beginners.
+
+GitHub actions is a building CI CD solution within GitHub.
+
+It allows developers to automate workflows directly in their GitHub repositories.
+
+GitHub actions is relatively easy to use, especially for teams already using GitHub, as it requires
+
+minimal setup and has extensive pre-built integrations.
+
+GitLab offers a comprehensive CI CD solution as a part of its platform.
+
+It integrates seamlessly with GitLab repositories and provides powerful pipeline capabilities like GitHub
+
+actions.
+
+It is user friendly and includes features for code review, monitoring, and deployment.
+
+Each of these tools has unique strengths, and the choice often depends on the existing ecosystem,
+
+team expertise, and specific project needs.
+
+Most of these tools, like Jenkins and GitHub actions, have open source or free tiers, making them
+
+accessible to individuals and small teams.
+
+Implementing CI CD offers several advantages that are critical for modern software development.
+
+Automated testing and deployment reduce the time it takes to release new features or fixes, instead
+
+of waiting for manual approvals or running tests manually.
+
+CI CD pipelines handle these tasks in minutes or seconds.
+
+These speed accelerates time to market and allows teams to iterate quickly.
+
+By automating repetitive tasks like code integration, testing and deployment.
+
+CI CD minimizes the chance of errors caused by manual processes.
+
+For instance, forgetting to run a particular test or deploying the wrong version of code becomes less
+
+likely.
+
+CI CD encourages a collaborative workflow.
+
+Developers can work on multiple features or fixes simultaneously, confident that their changes will
+
+be integrated and tested in real time.
+
+It fosters a culture of continuous improvement and accountability.
+
+Automated pipelines ensure that only Thoroughly tested and validated code reaches production, reducing
+
+the likelihood of bugs and downtime.
+
+Monitoring tools often integrate with CI CD pipelines, providing immediate alerts for potential issues.
+
+In summary, CI CD transforms the development process by making it faster, more efficient, and more
+
+reliable.
+
+It empowers teams to focus on innovation while ensuring high quality code delivery.
+
+YAML is a simple, human readable format designed for configuration files, making it easy for teams
+
+to collaborate.
+
+It is frequently used in DevOps workflows because of its simplicity and readability compared to other
+
+formats like XML or JSON.
+
+The key advantage of YAML is that it is intuitive for both developers and non-developers to read and
+
+write, especially in settings like CI CD pipelines, where configuration management is essential.
+
+YAML uses a key value structure to represent data.
+
+For example, you define a setting or a variable by pairing a name which is a key with a value.
+
+It supports lists where each item is preceded by a dash.
+
+This makes it ideal for representing multiple steps or options in a configuration.
+
+Nesting is used to represent hierarchies where you indent items to show their relationship.
+
+Indentation is done with spaces, which helps make the file easy to read.
+
+GitHub actions leverages YAML to define workflows that automate tasks like building, testing, and
+
+deploying code.
+
+These workflow files are placed in the GitHub workflow directory of your repository.
+
+Once setup, GitHub automatically detects and runs these workflows based on certain triggers like pushing
+
+code or opening a pull request.
+
+The workflows define events what triggers the workflow, and jobs the individual tasks that are performed.
+
+These jobs can run sequentially or in parallel, depending on how they are defined in the YAML file.
+

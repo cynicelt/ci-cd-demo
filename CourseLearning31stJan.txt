@@ -26,3 +26,73 @@ Github Actions workflows are defined using YAML
 Workflows specify events and jobs
 Stored in .github/workflows/
 
+
+
+Containers are lightweight standalone and executable
+
+Act as isolated environments where applications can run 
+consistently regardless of the underlying infra.
+
+They include the necessary components such as code, libraries
+and system tools, ensuring that the app runs the same in all
+envs.
+
+Unlike traditional VMs, containers share the OS host kernel 
+and isolate apps at the process level.
+
+A container might take seconds to spin up instead of a VM.
+
+Docker is the most popular platform for running containers.
+
+The first concept is Images
+Lightweight standalone package that contains everything needed
+to run an application. Images are readonly templates.
+
+Second concept is Containers
+Containers are instances of Docker Images that run as isolated
+processes on the host system.
+
+Third concept is Dockerfiles
+Simple text file that contains instructions for building a 
+Docker image. Installing libs or copying application code.
+
+Commands are 
+- docker build > creates an image from a docker file
+- docker run > starts a container from an image
+- docker stop > stops a running container
+- docker ps > lists all running containers
+
+CONFIGURATION MANAGEMENT
+What is Configuration Management?
+
+Configuration management automates system setup, 
+configuration, and maintenance to ensure consistency 
+and efficiency across IT infrastructure.
+
+Ansible is used for Configuration Management
+YAML-based playbooks for config automation
+
+Playbooks
+are yaml files that define a series of tasks to be executed 
+on target systems
+
+Modules
+Prebuilt functionalities for common tasks like file manipulation or
+file installation 
+
+Inventories
+Lists of target systems
+
+
+Ansible workflow:
+Write a playbook defining the desired configurations
+Specify the target systems in the inventory
+Run the playbook
+
+
+Importance of Monitoring
+- Uptime assurance
+- Performance
+- Issue detection
+
+
