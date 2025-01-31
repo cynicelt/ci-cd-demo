@@ -1,0 +1,28 @@
+Basics of CI/CD
+
+Jenkins is the industry standard
+
+CI - Automation the integration of code changes
+- - - TESTING HAPPENS HERE
+
+CD - Streamlining deployment processes
+- - - Once code changes are tested, the code is delivered in this bucket
+
+
+Jenkins open-source automation server
+- custom pipelines
+- manual setup and maintenance which is a PITA for beginners
+
+Automated Testing and Deployment is a big benefit of CICD
+Reduces human error, obvs
+
+
+YAML standards
+Human readable data serialisation language
+Uses key-value pairs and lists
+Nested items: indented with spaces
+
+Github Actions workflows are defined using YAML
+Workflows specify events and jobs
+Stored in .github/workflows/
+
