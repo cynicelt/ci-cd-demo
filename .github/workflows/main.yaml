@@ -17,3 +17,6 @@ jobs:
     
     - name: Install dependencies
       run: pip install --upgrade pip
+
+    - name: Run script
+      run: python main.py
